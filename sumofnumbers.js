@@ -33,7 +33,7 @@ function sumRecursion(list) {
 console.log(sumRecursion(testList));
 
 function sumTheSimpleWay(list) {
-  return _.reduce(list, function (memo, num) { return memo + num; } );
+  return _.reduce(list, function (memo, num) { return memo + num; }, 0);
 }
 
 console.log(sumTheSimpleWay(testList));
